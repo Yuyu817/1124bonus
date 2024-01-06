@@ -1,0 +1,92 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center; /* Center align the text */
+}
+/* Styling form container */
+.form-container {
+  width: 60%; /* Width of the form container */
+  background-color: #f2f2f2;
+  padding: 2%; /* Padding in percentage */
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling form rows */
+.form-row {
+  margin-bottom: 2%; /* Margin in percentage */
+  display: flex;
+  align-items: center;
+}
+.form-row1{
+  margin-bottom: 2%; /* Margin in percentage */
+  display: flex;
+  align-items: center;
+}
+
+ .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+/* Styling labels */
+label {
+  margin-right: 2%; /* Margin in percentage */
+  font-weight: bold;
+}
+
+/* Styling input fields and textarea */
+input[type="text"],
+textarea {
+  width: calc(96% - 20px); /* Width in percentage */
+  padding: 2%; /* Padding in percentage */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+::placeholder {
+  color: grey; /* Set the placeholder color to grey */
+}
+
+
+
+/* Styling textarea to be non-resizable */
+textarea {
+  resize: none;
+}
+
+/* Styling submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 2% 5%; /* Padding in percentage */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect on submit button */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+img {
+  width: 100%;
+  height: 230px;
+}
